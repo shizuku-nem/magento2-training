@@ -1,0 +1,32 @@
+{
+    "name": "training/module-example",
+    "description": "Module example",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "klarna/module-core": "6.2.4",
+        "klarna/module-ordermanagement": "6.2.5",
+        "magento/framework": "^102|^103",
+        "magento/module-backend": "^101.0|^102.0",
+        "magento/module-config": "^101.0",
+        "magento/module-checkout": "^100.1",
+        "magento/module-customer": "^102.0|^103.0",
+        "magento/module-directory": "100.4.*",
+        "magento/module-payment": "^100.1",
+        "magento/module-quote": "^101.0",
+        "magento/module-sales": "^102.0||^103.0",
+        "magento/module-sales-rule": "*",
+        "magento/module-store": "^101.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Training\\Example\\": ""
+        }
+    }
+}
+
